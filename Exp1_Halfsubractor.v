@@ -1,7 +1,7 @@
-module hs(a,b,difference,borrow);
+module halfsubractor(d,bo,a,b);
 input a,b;
-output difference,borrow;
-
-
-
+output d,bo;
+assign d=a^b;
+assign bo=(~a)&b;
 endmodule
+
