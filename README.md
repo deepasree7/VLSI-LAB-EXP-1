@@ -1,4 +1,4 @@
-# VLSI-LAB-EXPERIMENTS
+![Screenshot 2024-03-04 142147](https://github.com/deepasree7/VLSI-LAB-EXP-1/assets/161302967/4c036da1-43b7-49a8-9be6-61d003572429)# VLSI-LAB-EXPERIMENTS
 AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
 
 APPARATUS REQUIRED: Xilinx 14.7 Spartan6 FPGA
@@ -38,14 +38,21 @@ Full Subtractor:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
 
 
-
+# half adder
 VERILOG CODE:
-
-----Type Verilog Code
-
+```
+module half_adder(a,b,sum,carry);
+input a,b;
+output sum,carry; 
+or(sum,a,b);
+and(carry,a,b);
+endmodule
+```
 OUTPUT:
+![Screenshot 2024-03-04 140109](https://github.com/deepasree7/VLSI-LAB-EXP-1/assets/161302967/35102ac8-ec61-46c0-bfe1-182ad79302b3)
+![Screenshot 2024-04-01 143951](https://github.com/deepasree7/VLSI-LAB-EXP-1/assets/161302967/8a26f8b3-129e-47a7-af07-86224858e34a)
 
------Place a Waveform Generated from Xilinx ISE
+
 
 RESULT:
 
