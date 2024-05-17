@@ -1,4 +1,6 @@
-![Screenshot 2024-03-04 142147](https://github.com/deepasree7/VLSI-LAB-EXP-1/assets/161302967/4c036da1-43b7-49a8-9be6-61d003572429)# VLSI-LAB-EXPERIMENTS
+![Screenshot 2024-03-04 142147](https://github.com/deepasree7/VLSI-LAB-EXP-1/assets/161302967/4c036da1-43b7-49a8-9be6-61d003572429)
+# Simulation and synthesis of Logic Gates,Adders and Subtractor using simulate and synthesis Logic Gates,Adders and Subtractor using Vivado.
+.
 AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE.
 
 APPARATUS REQUIRED: Xilinx 14.7 Spartan6 FPGA
